@@ -1,0 +1,31 @@
+{
+  "name": "projeto-agendament-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-debug": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizrenatomf/agendamento.git"
+  },
+  "author": "Luiz Renato Miranda Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizrenatomf/agendamento/issues"
+  },
+  "homepage": "https://github.com/luizrenatomf/agendamento#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
